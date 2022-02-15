@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNews</title>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Navegacion -->
+    <nav class="nav-main">
+      <!-- 
+        Debemos crear los elementos por separado:
+        Una etiqueta img para el logo
+        Una etiqueta ul para los li
+        Y otra etiqueta de lo que se necesite ya sea un boton o un icono
+      -->
+
+      <!-- Logo del sitio web -->
+      <img class="nav-brand" src="./img/brand.png" alt="">
+      <!-- Lista para las pestañas de la navegación -->
+      <ul class="nav-menu">
+        <li>
+          <a href="#">Web Development</a>
+        </li>
+        <li>
+          <a href="#">Blochain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+      </ul>
+      <!-- Seccion de la derecha -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <!-- Showcase -->
+    <header class="showcase">
+      <h2>Big News Today</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor! Quos, dolores vel ea dignissimos accusamus adipisci veritatis mollitia dicta, atque iure fugit odit! Perferendis quaerat reprehenderit labore numquam odio.</p>
+      <a class="btn" href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+    </header>
+
+    <!-- New cards -->
+    <!-- En este espacio debemos utilizar columnas con css grid -->
+    <div class="news-cards">
+
+      <div class="card">
+        <img src="./img/news1.jpg" alt="">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe asperiores dicta sit vitae dolore delectus atque accusantium at unde in.</p>
+        <a href="">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+
+      <div class="card">
+        <img src="./img/news2.jpg" alt="">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe asperiores dicta sit vitae dolore delectus atque accusantium at unde in.</p>
+        <a href="">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+
+      <div class="card">
+        <img src="./img/news2.jpg" alt="">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe asperiores dicta sit vitae dolore delectus atque accusantium at unde in.</p>
+        <a href="">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+
+      <div class="card">
+        <img src="./img/news4.jpg" alt="">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe asperiores dicta sit vitae dolore delectus atque accusantium at unde in.</p>
+        <a href="">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+
+    </div>
+
+    <!-- banner -->
+    <section class="cards-banner-one">
+      <div class="content">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi quod rem libero odio modi aspernatur perferendis at, similique autem!</p>
+        <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </section>
+
+  </div>
+  
+</body>
+</html>
